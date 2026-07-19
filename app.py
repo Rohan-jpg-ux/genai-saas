@@ -15,7 +15,7 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
-API_BASE = os.getenv("API_BASE", "http://localhost:8000")
+API_BASE = os.getenv("API_BASE", "https://genai-saas-r1wu.onrender.com")
 
 # ── Session state ──────────────────────────────────────────────────────────────
 for k, v in [("token", None), ("user", None), ("page", "home"), ("qa_history", []), ("groq_key", "")]:
