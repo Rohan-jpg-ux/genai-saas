@@ -2,9 +2,8 @@ fastapi>=0.115.0
 uvicorn[standard]>=0.30.0
 sqlalchemy>=2.0.36
 pydantic>=2.7.4
-python-jose[cryptography]==3.3.0
-passlib[bcrypt]==1.7.4
 python-multipart>=0.0.10
+python-jose==3.3.0
 langgraph>=0.2.0
 langchain>=0.2.0
 langchain-groq>=0.1.9
@@ -12,3 +11,4 @@ langchain-core>=0.2.0
 streamlit>=1.35.0
 requests>=2.31.0
 python-dotenv>=1.0.0
+ecdsa>=0.18.0
